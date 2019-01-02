@@ -2,7 +2,11 @@
     {
         "id": 1,
         "name": "奥雷里亚诺·布恩迪亚",
-        "description": "",
+        "description": "马孔多出生的第一个孩子",
+        "tags": [
+            "布恩迪亚家族",
+            "上校"
+        ],
         "relations": [
             {
                 "id": 3,
@@ -15,6 +19,16 @@
                 "relation": "母亲"
             },
             {
+                "id": 4,
+                "name": "何塞·阿尔卡蒂奥",
+                "relation": "哥哥"
+            },
+            {
+                "id": 8,
+                "name": "阿玛兰妲",
+                "relation": "妹妹"
+            },
+            {
                 "id": 19,
                 "name": "蕾梅黛丝",
                 "relation": "妻子"
@@ -25,14 +39,17 @@
     {
         "id": 2,
         "name": "梅尔基亚德斯",
-        "description": "",
+        "description": "马孔多的第一个逝者",
         "relations": [],
         "event": []
     },
     {
         "id": 3,
         "name": "何塞·阿尔卡蒂奥·布恩迪亚",
-        "description": "",
+        "description": "家族中的第一人，马孔多的创建者",
+        "tags": [
+            "布恩迪亚家族"
+        ],
         "relations": [
             {
                 "id": 5,
@@ -48,6 +65,11 @@
                 "id": 1,
                 "name": "奥雷里亚诺·布恩迪亚",
                 "relation": "儿子"
+            },
+            {
+                "id": 8,
+                "name": "阿玛兰妲",
+                "relation": "女儿"
             }
         ],
         "event": []
@@ -55,15 +77,63 @@
     {
         "id": 4,
         "name": "何塞·阿尔卡蒂奥",
-        "description": "",
-        "relations": [],
+        "description": "家族中的第一个孩子，在寻找马孔多的路上出生",
+        "tags": [
+            "布恩迪亚家族"
+        ],
+        "relations": [
+            {
+                "id": 3,
+                "name": "何塞·阿尔卡蒂奥·布恩迪亚",
+                "relation": "父亲"
+            },
+            {
+                "id": 5,
+                "name": "乌尔苏拉·伊瓜兰",
+                "relation": "母亲"
+            },
+            {
+                "id": 8,
+                "name": "阿玛兰妲",
+                "relation": "妹妹"
+            },
+            {
+                "id": 1,
+                "name": "奥雷里亚诺·布恩迪亚",
+                "relation": "弟弟"
+            }
+        ],
         "event": []
     },
     {
         "id": 5,
         "name": "乌尔苏拉·伊瓜兰",
-        "description": "",
-        "relations": [],
+        "description": "何塞·阿尔卡蒂奥·布恩迪亚的表妹与妻子",
+        "tags": [
+            "布恩迪亚家族"
+        ],
+        "relations": [
+            {
+                "id": 3,
+                "name": "何塞·阿尔卡蒂奥·布恩迪亚",
+                "relation": "丈夫"
+            },
+            {
+                "id": 4,
+                "name": "何塞·阿尔卡蒂奥",
+                "relation": "儿子"
+            },
+            {
+                "id": 1,
+                "name": "奥雷里亚诺·布恩迪亚",
+                "relation": "儿子"
+            },
+            {
+                "id": 8,
+                "name": "阿玛兰妲",
+                "relation": "女儿"
+            }
+        ],
         "event": []
     },
     {
@@ -84,6 +154,9 @@
         "id": 8,
         "name": "阿玛兰妲",
         "description": "",
+        "tags": [
+            "布恩迪亚家族"
+        ],
         "relations": [],
         "event": []
     },
@@ -91,6 +164,9 @@
         "id": 9,
         "name": "阿尔卡蒂奥",
         "description": "",
+        "tags": [
+            "布恩迪亚家族"
+        ],
         "relations": [],
         "event": []
     },
@@ -112,6 +188,10 @@
         "id": 12,
         "name": "丽贝卡",
         "description": "",
+        "tags": [
+            "布恩迪亚家族",
+            "领养"
+        ],
         "relations": [],
         "event": []
     },
