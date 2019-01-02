@@ -3,7 +3,23 @@
         "id": 1,
         "name": "奥雷里亚诺·布恩迪亚",
         "description": "",
-        "relations": [],
+        "relations": [
+            {
+                "id": 3,
+                "name": "何塞·阿尔卡蒂奥·布恩迪亚",
+                "relation": "父亲"
+            },
+            {
+                "id": 5,
+                "name": "乌尔苏拉·伊瓜兰",
+                "relation": "母亲"
+            },
+            {
+                "id": 19,
+                "name": "蕾梅黛丝",
+                "relation": "妻子"
+            }
+        ],
         "event": []
     },
     {
@@ -17,7 +33,23 @@
         "id": 3,
         "name": "何塞·阿尔卡蒂奥·布恩迪亚",
         "description": "",
-        "relations": [],
+        "relations": [
+            {
+                "id": 5,
+                "name": "乌尔苏拉·伊瓜兰",
+                "relation": "妻子"
+            },
+            {
+                "id": 4,
+                "name": "何塞·阿尔卡蒂奥",
+                "relation": "儿子"
+            },
+            {
+                "id": 1,
+                "name": "奥雷里亚诺·布恩迪亚",
+                "relation": "儿子"
+            }
+        ],
         "event": []
     },
     {
